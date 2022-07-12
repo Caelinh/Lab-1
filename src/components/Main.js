@@ -3,18 +3,16 @@ import HornedBeast from './HornedBeast';
 
 class Main extends Component{
 
+    constructor(props){
+        super(props)
+    }
+    
     render() {
         return (
             <>
-            <HornedBeast>
-                <title>This is a title</title>
-                <imageUrl>
-                    this is a image url
-                </imageUrl>
-                <p>Description</p>
-            </HornedBeast>
-            <HornedBeast />
-            <HornedBeast />
+            <HornedBeast title = 'This is a beast' description = 'This is a description' img = 'https://via.placeholder.com/150' url = 'Thisisawebsite.com' />
+            <HornedBeast title = 'This is a 2nd beast' description = 'This is a description' img = 'https://via.placeholder.com/150' url = 'Thisisawebsite.com' />
+            <HornedBeast title = 'This is a 3rd beast' description = 'This is a description' img = 'https://via.placeholder.com/150' url = 'Thisisawebsite.com' />
             </>
         )
     }

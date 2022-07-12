@@ -6,13 +6,12 @@ class HornedBeast extends Component {
 
 
 
-
     render() {
         return (
             <div className='Beast'>
-                <h2>Animal title</h2>
-                <img src = '' alt = '' title=''></img>
-                <p>Description will go here</p>
+               <img src ={this.props.img} alt = "pictures" /> 
+               <h2>{this.props.title}</h2>
+               <p>{this.props.url}</p>
             </div>
         )
     }
