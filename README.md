@@ -6,21 +6,21 @@
 
 Estimate of time needed to complete: 30 min
 
-Start time: _____
+Start time: __4:00___
 
-Finish time: _____
+Finish time: ___6:00__
 
-Actual time needed to complete: _____
+Actual time needed to complete: _2hrs____
 
 ### Feature #2: Allow users to vote for their favorite beast  
 
 Estimate of time needed to complete: 30 min
 
-Start time: _____
+Start time: ___6:30__
 
-Finish time: _____
+Finish time: __didnt finish___
 
-Actual time needed to complete: _____
+Actual time needed to complete: __3hrs spent___
 
 ### Feature #3: Bootstrap  
 
