@@ -1,17 +1,16 @@
 import { Component } from 'react';
-
+import { Image } from 'react-bootstrap';
 
 
 class HornedBeast extends Component {
 
-
-
     render() {
         return (
             <div className='Beast'>
-               <img src ={this.props.img} alt = "pictures" /> 
-               <h2>{this.props.title}</h2>
-               <p>{this.props.url}</p>
+            <>
+            <h1>{this.props.hornList.map(beast => beast.horns)}</h1>
+            {this.props.hornList.map(beast => <Image width="200px" src={beast.image_url} onClick={()=>this.props.selectBeast(beast)} />)}
+            </>
             </div>
         )
     }
