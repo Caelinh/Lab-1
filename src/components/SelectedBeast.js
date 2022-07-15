@@ -5,33 +5,26 @@ import Modal from 'react-bootstrap/Modal';
 
 class SelectedBeast extends Component {
     
-    constructor() {
-        super();
-        this.state= {
-            changedState : null
-        }
-    }
-   
-    displayModal = () => this.setState({changedState: this.props.selectState});
+
     
     render(){
         return(
-        
+        <Modal show={this.props.selectState} onHide={this.props.selectState}>
         <Modal.Dialog>
-        <Modal.Header closeButton>
+        <Modal.Header>
           <Modal.Title>{this.props.title}</Modal.Title>
         </Modal.Header>
   
         <Modal.Body>
           <img width={'400px'} alt ="horned beasts" src ={this.props.image} />
-          <p>{this.props.descript}</p>
+          <p>{this.props.description}</p>
         </Modal.Body>
   
         <Modal.Footer>
-          <Button variant="secondary">Close</Button>
-          <Button variant="primary">Save changes</Button>
+          <Button variant="secondary" onClick={this.props.closeModal}>Close</Button>
         </Modal.Footer>
       </Modal.Dialog>
+      </Modal>
         )
 }
 }
