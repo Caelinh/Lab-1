@@ -22,7 +22,9 @@ class HornedBeast extends Component {
         
         
     }
-    modalClick = () => this.props.selectedBeast(this.props.title,this.props.image_url,this.props.description, this.state.hasChanged)
+    modalClick = () => {
+        this.props.selectedBeast(this);
+    }
 
     render() {
         return (
