@@ -10,6 +10,7 @@ import { Component } from 'react';
 
 
 
+
 class App extends Component {
   constructor(props) {
     super(props);
@@ -35,7 +36,6 @@ class App extends Component {
     return (
 
       <div className="App">
-
         <Header />
         <Main selectedBeast={this.selectedBeast} list={List} />
         <SelectedBeast title={this.state.modalTitle}

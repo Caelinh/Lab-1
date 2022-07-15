@@ -41,3 +41,13 @@ Start time: 8:00
 Finish time: 1:00
 
 Actual time needed to complete: 5 hrs
+
+### Feature #5: Filter by horns
+
+Estimate of time needed to complete: 30min
+
+Start time: 6:00
+
+Finish time: 8:00
+
+Actual time needed to complete: 2 hrs
